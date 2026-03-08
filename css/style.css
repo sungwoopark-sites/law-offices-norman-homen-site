@@ -23,7 +23,7 @@
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #7c600e; /* darkened gold — passes 4.5:1 on off-white/white backgrounds */
+  color: #5c4808; /* darkened amber — passes WCAG AA 7:1+ on white/off-white */
   margin-bottom: 0.75rem;
 }
 
@@ -328,14 +328,7 @@
   gap: 1rem;
 }
 
-.attorney-affiliations img {
-  height: 36px;
-  width: auto;
-  max-width: 120px;
-  object-fit: contain;
-  filter: brightness(0) invert(1);
-  opacity: 0.7;
-}
+/* .attorney-affiliations img styles moved to critical CSS in index.html */
 
 /* ===========================
    TESTIMONIALS
@@ -675,7 +668,7 @@
 
 .footer-disclaimer {
   font-size: 0.78rem;
-  color: rgba(255,255,255,0.65); /* increased from 0.45 — passes WCAG AA on navy-dark background */
+  color: rgba(255,255,255,0.82); /* sufficient contrast on navy-dark background */
 }
 
 .footer-nav h4 {
@@ -713,7 +706,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 0.82rem;
-  color: rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.7); /* increased from 0.4 — passes WCAG AA on navy-dark */
   flex-wrap: wrap;
   gap: 0.5rem;
 }
