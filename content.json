@@ -1,0 +1,91 @@
+{
+  "business": {
+    "name": "Law Offices of Norman J. Homen",
+    "tagline": "Fighting for California Workers' Rights for Over 30 Years",
+    "description": "Experienced workers' compensation, personal injury, and social security disability attorneys serving Orange County, Los Angeles County, and the Bay Area.",
+    "phone": "(714) 750-6000",
+    "phone_tollfree": "(866) 383-4529",
+    "email": "",
+    "address": {
+      "street": "13252 Garden Grove Blvd, Suite 222",
+      "city": "Garden Grove",
+      "state": "CA",
+      "zip": "92843"
+    },
+    "locations": [
+      {
+        "name": "Orange County",
+        "address": "13252 Garden Grove Blvd, #222, Garden Grove, CA 92843",
+        "phone": "(714) 750-6000"
+      },
+      {
+        "name": "Los Angeles County",
+        "address": "11100 Valley Blvd., Suite 224, El Monte, CA 91731",
+        "phone": "(626) 582-8260"
+      },
+      {
+        "name": "Santa Clara County",
+        "address": "84 W. Santa Clara St., Suite 798, San Jose, CA 95113",
+        "phone": "(408) 889-7871"
+      }
+    ],
+    "languages": ["English", "Spanish", "Vietnamese"],
+    "fee_structure": "Contingency basis — No fees unless we win",
+    "years_experience": "30+"
+  },
+  "attorney": {
+    "name": "Norman J. Homen",
+    "title": "Attorney at Law",
+    "bio": "Norman J. Homen has been fighting for the rights of injured workers and disabled Californians for over 30 years. His firm handles workers' compensation claims, personal injury cases, and Social Security Disability Insurance (SSDI) and Supplemental Security Income (SSI) applications and appeals throughout California.",
+    "photo": "assets/images/attorney.webp"
+  },
+  "practice_areas": [
+    {
+      "name": "Workers' Compensation",
+      "icon": "⚖️",
+      "description": "Injured on the job? We fight to ensure you receive the full benefits you deserve — medical treatment, temporary disability, permanent disability, and vocational rehabilitation."
+    },
+    {
+      "name": "Personal Injury",
+      "icon": "🏥",
+      "description": "If you have been injured due to someone else's negligence, we will pursue maximum compensation for your medical bills, lost wages, pain and suffering, and other damages."
+    },
+    {
+      "name": "Social Security Disability",
+      "icon": "🛡️",
+      "description": "We guide clients through every stage of the SSDI and SSI process — from initial applications through Administrative Law Judge hearings, Appeals Council review, and federal court representation."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Marisol Huggins",
+      "rating": 5,
+      "text": "After filing my case with them, they were constantly communicating with me through the whole process. I felt supported every step of the way."
+    },
+    {
+      "name": "Dean Hsiao",
+      "rating": 5,
+      "text": "These guys and gals don't give up. Persistence pays off and they got my Social Security approved."
+    },
+    {
+      "name": "Tristan Owens",
+      "rating": 5,
+      "text": "Thank you for helping me win my SSI case! Without you I wouldn't have been able to win."
+    },
+    {
+      "name": "Leticia Esquerra",
+      "rating": 5,
+      "text": "Thank you to Mr. Moises for his attentive support throughout my Social Security case. Professional, caring, and effective."
+    }
+  ],
+  "affiliations": [
+    { "name": "NOSSCR", "logo": "assets/images/nosscr.webp" },
+    { "name": "OCBA", "logo": "assets/images/ocba.webp" },
+    { "name": "CAALA", "logo": "assets/images/caala.webp" },
+    { "name": "CAAA", "logo": "assets/images/caaa.webp" }
+  ],
+  "meta": {
+    "site_url": "https://law-offices-norman-homen-site.vercel.app",
+    "og_image": "https://law-offices-norman-homen-site.vercel.app/assets/images/hero.webp"
+  }
+}
