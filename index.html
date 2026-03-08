@@ -129,6 +129,11 @@
       background: var(--white);
       transition: var(--transition);
     }
+    /* Mobile nav: pre-render as hidden to prevent CLS from async style.css load */
+    @media (max-width: 768px) {
+      .nav-links { visibility: hidden; max-height: 0; overflow: hidden; }
+      .hamburger { display: flex; }
+    }
     /* HERO */
     .hero {
       min-height: 100svh;
